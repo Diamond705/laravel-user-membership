@@ -179,6 +179,59 @@ ul, li {
     color: #ccc;
 }
 
+/*----- form placeholder style-----*/
+
+.form-control::-moz-placeholder {
+    color: #999;
+    opacity: 1;
+    line-height: 18px;
+}
+.form-control::-ms-input-placeholder {
+    color: #999;
+    line-height: 18px;
+}
+.form-control::-webkit-input-placeholder {
+    color: #999;
+    line-height: 18px;
+}
+
+/*-----on focus style-----*/
+
+.form-control:focus::-moz-placeholder {
+    color: #000;
+}
+.form-control:focus::-ms-input-placeholder {
+    color: #000;
+}
+.form-control:focus::-webkit-input-placeholder {
+    color: #000;
+}
+
+/* Intro Form */
+.intro-form {
+	background-color: #FFFFFF;
+	padding: 30px;
+	border-radius: 5px;
+	border: 3px solid #eee;
+}
+.intro-form h3{
+	color: #949799;
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.intro-form input {
+	box-shadow: none !important;
+	border: 2px solid #eee;
+	height: 38px;
+}
+.intro-form input:focus {
+	outline: none;
+	border: 2px solid #3bc0c3;
+}
+
+
 /*
 ========================================================================
 Footer styles
