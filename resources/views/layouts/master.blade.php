@@ -75,8 +75,7 @@
                     <div class="wow bounceInDown">
                         <h2>User Membership by <a href="http://github.com/Diamond705">@Diamond705</a></h2>
                         <h3><span class="rotate">Welcome, {{ Auth::user()->name }} </span></h3>
-                        <a type="button" class="btn btn-theme-outline" href="{{ route('logout') }}" onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();"> Logout</a>
+                        <a type="button" class="btn btn-theme-outline" href="/logout"> Logout</a>
                         <!--<button type="button" class="btn btn-theme-outline">Login</button>-->
                     </div>
 

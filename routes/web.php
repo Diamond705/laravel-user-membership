@@ -19,4 +19,5 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index');
 Route::get('/welcome', 'DashboardController@index');
+Route::get('/logout', 'AuthController@flushUser');
 // Route::get('/test', 'TestController@index');
