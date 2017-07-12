@@ -168,8 +168,6 @@
     <script src="{{ asset('js/bootstrap.min.js') }}"></script>
     <!-- Background slider -->
     <script src="{{ asset('js/jquery.backstretch.min.js') }}"></script>
-    <!-- Owl-carousel slider -->
-    <script type="text/javascript" src="{{ asset('js/owl.carousel.min.js') }}"></script>
     <!-- Counterup -->
     <script src="{{ asset('js/jquery.counterup.min.js') }}" type="text/javascript"></script>
     <!-- WOW - Reveal Animations When You Scroll -->
