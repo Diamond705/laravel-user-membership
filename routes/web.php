@@ -21,3 +21,13 @@ Route::get('/home', 'HomeController@index');
 Route::get('/welcome', 'DashboardController@index');
 Route::get('/logout', 'AuthController@flushUser');
 // Route::get('/test', 'TestController@index');
+
+//Socialite Routes
+Route::get('/login/github', 'SocialAuthController@');
+Route::get('/login/github/callback', 'SocialAuthController@');
+Route::get('/login/facebook', 'SocialAuthController@');
+Route::get('/login/facebook/callback', 'SocialAuthController@');
+Route::get('/login/google', 'SocialAuthController@');
+Route::get('/login/google/callback', 'SocialAuthController@');
+Route::get('/login/twitter', 'SocialAuthController@');
+Route::get('/login/twitter/callback', 'SocialAuthController@');
