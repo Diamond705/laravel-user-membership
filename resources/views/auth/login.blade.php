@@ -8,6 +8,31 @@
 							<form role="form" method="POST" action="{{ route('login') }}">
                             {{ csrf_field() }}
 								<h3 class="text-center"> LOGIN </h3>
+                                 <!--begin social auth -->
+                    <ul class="fade_in animated fadeIn list-inline" style="font-size: 20px;">
+                        <li>
+                            <a href="#">
+	                                    <i class="fa fa-twitter"></i>
+	                                </a>
+                        </li>
+                        <li>
+                            <a href="#">
+	                                    <i class="fa fa-facebook"></i>
+	                                </a>
+                        </li>
+                        <li>
+                            <a href="#">
+	                                    <i class="fa fa-google"></i>
+	                                </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+	                                    <i class="fa fa-github"></i>
+	                                </a>
+                        </li>
+                    </ul>
+                    <!--end social auth -->
 								<div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
 									<input id="email" type="email" name="email" class="form-control" placeholder="Email Address" value="{{ old('email') }}" required autofocus></input>
                                     @if ($errors->has('email'))
