@@ -13,20 +13,20 @@ class SocialAuthController extends Controller
      *
      * @return Response
      */
-    public function redirectToProvider()
-    {
-        return Socialite::driver('github')->redirect();
-    }
+//    public function redirectToProvider()
+//    {
+//        return Socialite::driver('github')->redirect();
+//    }
 
     /**
      * Obtain the user information from GitHub.
      *
      * @return Response
      */
-    public function handleProviderCallback()
-    {
-        $user = Socialite::driver('github')->user();
-
-        // $user->token;
-    }
+//    public function handleProviderCallback()
+//    {
+//        $user = Socialite::driver('github')->user();
+//
+//        // $user->token;
+//    }
 }
