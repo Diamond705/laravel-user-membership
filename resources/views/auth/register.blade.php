@@ -11,23 +11,23 @@
                                 <!--begin social auth -->
                                 <ul class="fade_in animated fadeIn list-inline" style="font-size: 20px;">
                                     <li>
-                                        <a href="#">
+                                        <a href="login/twitter">
                                             <i class="fa fa-twitter"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="login/facebook">
                                             <i class="fa fa-facebook"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="login/google">
                                             <i class="fa fa-google"></i>
                                         </a>
                                     </li>
 
                                     <li>
-                                        <a href="#">
+                                        <a href="login/github">
                                             <i class="fa fa-github"></i>
                                         </a>
                                     </li>
