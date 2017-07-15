@@ -35,7 +35,7 @@ class SocialAccountController extends Controller
             $provider
         );
         auth()->login($authUser, true);
-        return redirect()->to('/home');
+        return redirect()->to('/home')->withDetails($user)->withService($provider);
 
 
     }
