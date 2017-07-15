@@ -11,30 +11,30 @@
                                  <!--begin social auth -->
                     <ul class="fade_in animated fadeIn list-inline" style="font-size: 20px;">
                         <li>
-                            <a href="#">
+                            <a href="login/twitter">
 	                                    <i class="fa fa-twitter"></i>
 	                                </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="login/facebook">
 	                                    <i class="fa fa-facebook"></i>
 	                                </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="login/google">
 	                                    <i class="fa fa-google"></i>
 	                                </a>
                         </li>
 
                         <li>
-                            <a href="#">
+                            <a href="login/github">
 	                                    <i class="fa fa-github"></i>
 	                                </a>
                         </li>
                     </ul>
                     <!--end social auth -->
 								<div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
-									<input id="email" type="email" name="email" class="form-control" placeholder="Email Address" value="{{ old('email') }}" required autofocus></input>
+									<input id="email" type="email" name="email" class="form-control" placeholder="Email Address" value="{{ old('email') }}" required autofocus>
                                     @if ($errors->has('email'))
                                     <span class="help-block">
                                         <strong>{{ $errors->first('email') }}</strong>
@@ -43,7 +43,7 @@
 								</div>
 
 								<div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
-									<input id="password" type="password" name="password" class="form-control"placeholder="Password" required="required"></input>
+									<input id="password" type="password" name="password" class="form-control"placeholder="Password" required="required">
                                      @if ($errors->has('password'))
                                     <span class="help-block">
                                         <strong>{{ $errors->first('password') }}</strong>
