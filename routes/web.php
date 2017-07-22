@@ -21,3 +21,7 @@ Route::get('/home', 'HomeController@index');
 Route::get('/welcome', 'DashboardController@index');
 Route::get('/logout', 'AuthController@flushUser');
 // Route::get('/test', 'TestController@index');
+
+//Socialite Routes
+Route::get('login/{provider}', 'Auth\SocialAccountController@redirectToProvider');
+Route::get('login/{provider}/callback', 'Auth\SocialAccountController@handleProviderCallback');
