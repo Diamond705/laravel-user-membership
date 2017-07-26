@@ -1,10 +1,10 @@
 @extends('layouts.master')
 
-@section('content')
+
 
 @section('regform')
 
-<div class="col-sm-4 col-sm-offset-2 intro-form">
+<div class="text-center col-sm-4 col-lg-offset-4 showcase intro-form">
 							<form role="form" method="POST" action="{{ route('login') }}">
                             {{ csrf_field() }}
 								<h3 class="text-center"> LOGIN </h3>
@@ -68,11 +68,17 @@
                                 <a class="btn btn-link" href="{{ route('password.request') }}">
                                     Forgot Your Password?
                                 </a>
-								
+                                <a class="btn btn-link" href="{{ route('register') }}">
+                                    Not Registered Yet?
+                                </a>
+
 							</form>
 						</div>
 
 @endsection
+
+@section('content')
+
 
 
 @endsection

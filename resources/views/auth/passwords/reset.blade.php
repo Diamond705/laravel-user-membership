@@ -1,8 +1,7 @@
 @extends('layouts.master')
 
-@section('content')
 @section('regform')
-    <div class="col-sm-4 col-sm-offset-2 intro-form">
+    <div class="text-center col-md-4 col-lg-offset-4 showcase intro-form">
         @if (session('status'))
             <div class="alert alert-success">
                 {{ session('status') }}
@@ -46,8 +45,16 @@
             <div class="form-group text-center">
                 <button type="submit" class="btn btn-theme">Reset Password</button>
             </div>
+            <a class="btn btn-link" href="/home">
+               Home
+            </a>
+
 
         </form>
     </div>
 @endsection
+
+@section('content')
+
+
 @endsection
