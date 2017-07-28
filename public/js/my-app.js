@@ -130,18 +130,5 @@
 })(jQuery);
 
 
-/*-----------------------------------------------------------------------------------*/
-/* SLIDER
-/*-----------------------------------------------------------------------------------*/
 
-$("#owl-screen").owlCarousel({ 
-    autoPlay: 3000, //Set AutoPlay to 3 seconds
-    items : 4,
-    itemsDesktop : [1199,3],
-    itemsDesktopSmall : [979,3],
-	stopOnHover : true,
-    navigation : true, // Show next and prev buttons
-    pagination : false,
-	navigationText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
-});
 
