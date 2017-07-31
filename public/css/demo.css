@@ -1,0 +1,26 @@
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
+	color: #4b0f31;
+	background-color: #f1e5e6;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+a {
+	outline: none;
+	color: #d3394c;
+	text-decoration: none;
+}
+
+
+.box {
+	background-color: #9cb7c4;
+	padding: 6.25rem 1.25rem;
+}

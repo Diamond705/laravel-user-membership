@@ -24,8 +24,18 @@
     <!-- Animation -->
     <link rel="stylesheet" href="{{ asset('css/animate.css') }}">
 
-    <!-- Custom Stylesheet -->
+    <!-- Main Stylesheet -->
+    {{--Custom Stylesheet--}}
+    <link rel="stylesheet" href="{{ asset('css/normalize.css') }}">
+
+    <link rel="stylesheet" href="{{ asset('css/demo.css') }}">
+
+    <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
+
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+
+
+    <script>(function(e,t,n){var r=e.querySelectorAll("html")[0];r.className=r.className.replace(/(^|\s)no-js(\s|$)/,"$1js$2")})(document,window,0);</script>
 
 </head>
 
@@ -150,6 +160,8 @@
     <script src="{{ asset('js/smoothscroll.js') }}"></script>
     <!-- Custom Javascript -->
     <script src="{{ asset('js/my-app.js') }}"></script>
+
+    <script src="{{ asset('js/custom.js') }}"></script>
 
 </body>
 
